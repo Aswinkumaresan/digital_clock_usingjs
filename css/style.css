@@ -1,7 +1,7 @@
 body{
     background: rgb(42, 41, 41);
     color:white;
-   
+   border-radius: 5px;
 }
 .clockdisplay{
     margin-top: 50px;
@@ -10,38 +10,39 @@ body{
     display: flex;
     justify-content: center;
 }
-.mainbox {
+.overall {
     border:2px solid #f5f5f5;
-    border-radius: 2px;
+    border-radius: 12px;
     padding: 40px;
     width:70%;
    
 }
 .secborder{
-    border:3px solid rgba(247, 242, 242, 0.934);
+    border:3px solid rgba(231, 215, 215, 0.934);
     border-radius: 6px;
     padding: 20px;
 }
 .conborder{
-    border:1px solid rgb(109, 102, 102);
+    border:1px solid rgb(164, 161, 161);
     border-radius: 12px;
     padding: 10px;
 
 }
 .title{
-     display:flex;
-     justify-content:space-around;
+    display: flex;
+    justify-content: space-between;
+
 }
 .title p{
     font-size: 15px;
     font-weight: 500;
-    color:#ccc;
+    color:#ead0d0;
     margin-bottom:0px;
 }
 .display{
-    display:flex;
-    justify-content:space-around;
-    border:1px solid rgb(109, 102, 102);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f7e8e8;
     border-radius: 10px;
     padding: 25px;
 }
@@ -54,7 +55,7 @@ body{
 .display1{
     display:flex;
     justify-content:center;
-    border:1px solid rgb(109, 102, 102);
+    border:1px solid #f7e8e8;
     border-radius: 10px;
     padding: 35px;
 }
@@ -71,7 +72,7 @@ body{
     padding-top: 10px;
 }
 .day{
-    border:2px solid rgb(109, 102, 102);
+    border:2px solid #e8d4d4;
     border-radius: 50%;
     width:20px;
     height:20px;
@@ -100,9 +101,9 @@ body{
 }
 .apmdiv span{
     position: relative;
-    top: -10px;;
-    left:16px;
+    top: -16px;
+    left: 28px;
     font-size: 15px;
     font-weight: 500;
-    color:#ccc;
+    color: #ccc;
 }
