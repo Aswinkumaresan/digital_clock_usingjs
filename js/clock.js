@@ -13,7 +13,7 @@ let setDay=document.getElementsByClassName("day");
 function datefunc(){
       let d=new Date();
       let dat=numberFormat(d.getDate());
-      let monOfyear=numberFormat(d.getMonth());    
+      let monOfyear=numberFormat(d.getMonth()+1);    
       let yr=numberFormat(d.getFullYear());
 
       let dd=d.getDay();
